@@ -102,13 +102,13 @@ def snipeFloor():
 
 
 async def main():
-    bot = telegram.Bot("5933456920:AAHtP1DX8et1_TPpwF9w9N9yBRswj4cBV2Q")
+    bot = telegram.Bot(XXXXXXX)
     async with bot:
         #print(await bot.get_me())
         #print((await bot.get_updates()))                                    #RUN THIS TO GET CHAT ID
         message = snipeFloor()
         if message != "SAME":
-           await bot.send_message(text=message, chat_id=-1001860772724)            #ADD THE CHAT ID
+           await bot.send_message(text=message, chat_id=XXXXX)            #ADD THE CHAT ID
 
 
 if __name__ == '__main__':
